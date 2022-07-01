@@ -4,7 +4,8 @@
   "info": {
     "singularName": "art",
     "pluralName": "arts",
-    "displayName": "art"
+    "displayName": "art",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,23 @@
     },
     "Description": {
       "type": "string"
+    },
+    "Artwork": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "art_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::art-category.art-category",
+      "mappedBy": "category"
     }
   }
 }
