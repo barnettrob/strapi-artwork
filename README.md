@@ -54,4 +54,6 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Strapi with Cloudinary  
+https://strapi.io/blog/add-cloudinary-support-to-your-strapi-application  
+https://github.com/strapi/strapi/tree/master/packages/providers/upload-cloudinary
